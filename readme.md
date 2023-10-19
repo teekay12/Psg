@@ -3,9 +3,13 @@
 This project simply downloads all postcodes in the UK and saves them into a SQLite database.
 This is done by runnning a custom command 'php index.php app:download-locations' which takes few minutes to complete
 
-There are room for improvement due to large size of the file but due to the time constraint I won't be able to improve on this.
+There are room for improvement 1 due to the large size of the file and having to hit the database everytime there's a query, but due to the time constraint I won't be able to improve on this.
 
-Theere are also two other functionality
+I feel performance could be increased in this area by introducing Redis to hold search keys and there value to avoid hitting the database.
+
+And also, there are some areas I could have coded to an interface rather than coding to a concrete class.
+
+This project has as two other functionality
 
 ## 1 
 A function that takes in a query "Post code" and returns similar postcode
