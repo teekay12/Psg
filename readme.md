@@ -15,3 +15,5 @@ A functions that takes in 3 parameter "lat, longitude and limit" and returns a l
 
 Both functions returns a json response and can only be tested through a Unit test that I have written by running 
 vendor/bin/phpunit
+
+To install run `composer install`

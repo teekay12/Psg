@@ -48,7 +48,7 @@ class LocationControllerTest extends TestCase
 
         $locationController = new LocationController($locationManager);
 
-        // Call the searchPostcode method
+        // Call the searchLocation method
         $result = $locationController->searchLocation(57.101474, -2.242851, 1);
 
         // Prepare the expected JSON response
