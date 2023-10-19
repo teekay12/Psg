@@ -1,0 +1,1 @@
+{"version":1,"defects":{"LocationControllerTest::testSearchPostcode":8,"Test\\Unit\\LocationControllerTest::testSearchPostcode":8,"Test\\Unit\\LocationControllerTest::testSearchCoordinate":8},"times":{"LocationControllerTest::testSearchPostcode":0.004,"Test\\Unit\\LocationControllerTest::testSearchPostcode":0.008,"Test\\Unit\\LocationControllerTest::testSearchCoordinate":0}}

@@ -1,0 +1,25 @@
+{
+    "name": "kareem/ta",
+    "description": "Technical Assessment",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Kareem\\Ta\\" : "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Taofik Kareem",
+            "email": "kareemtaofik22@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^10.2",
+        "symfony/console": "^6.3"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Unit\\": "tests/"
+        }
+    }
+}
